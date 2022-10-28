@@ -1,0 +1,14 @@
+select idlogradouro, logradouro, bairro
+from logradouro
+order by logradouro desc
+limit 0,10;
+
+select idlogradouro, logradouro, bairro
+from logradouro
+order by logradouro
+limit 10,10;
+
+select idlogradouro, logradouro, bairro
+from logradouro
+order by logradouro
+limit 10,10;
